@@ -1,0 +1,68 @@
+/* Add these styles to your existing CSS file or create a new one */
+
+/* Style for the container of each slide */
+.slick-slide {
+    outline: none; /* Remove outline on focus for better accessibility */
+  }
+  
+  /* Style for the card container */
+  .slider-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* Style for the image in the card */
+  .slider-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the title in the card */
+  .slider-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the description in the card */
+  .slider-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .slider-card {
+      padding: 15px;
+    }
+  
+    .slider-title {
+      font-size: 1.2rem;
+    }
+  
+    .slider-description {
+      font-size: 0.9rem;
+    }
+  }
+  .slick-next {
+    right: 25px !important; 
+    margin-top: -70px !important;
+   
+
+  }
+  .slick-prev {
+    left: 25px !important;
+   
+}
+.slick{
+    gap: 10px;
+}

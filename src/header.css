@@ -1,0 +1,74 @@
+header {
+    background-color: #022a30; /* Change the background color as needed */
+    color: #9bb6ba; /* Change the text color as needed */
+    padding: 10px;
+    text-align: center;
+ 
+    
+  }
+  
+  h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 img {
+    max-height: 50px; /* Adjust the max height of the logo as needed */
+    margin-right: 10px; /* Adjust the spacing between the logo and text as needed */
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+  }
+  
+  .nav-links li {
+    margin: 0 15px; /* Adjust the spacing between navigation links as needed */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff; /* Change the text color of the links as needed */
+    font-weight: bold;
+    font-size: 16px;
+  
+    /* Adjust the font size as needed */
+  }
+  
+  .nav-links a:hover {
+    color: #b88c65; /* Change the color on hover as needed */
+  }
+  
+  .header-button {
+    background-color: #033f47;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+
+  }
+
+  .Button{
+    display: flex;
+    justify-content: end;
+    
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* .header-button:hover {
+    background-color:#b88c65;
+  } */

@@ -1,0 +1,25 @@
+     body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #000000, #cf3a19);
+            color: white;
+            overflow-y: scroll; /* Enable vertical scrollbar */
+          }
+
+          ::-webkit-scrollbar {
+            width: 12px;
+          }
+
+          ::-webkit-scrollbar-thumb {
+            background-color: #cf3a19; /* Red color for the thumb */
+            border-radius: 6px;
+          }
+
+          ::-webkit-scrollbar-track {
+            background-color: #000000; /* Background color for the track */
+            border-radius: 6px;
+          }

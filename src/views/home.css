@@ -1,0 +1,23 @@
+.animated-row {
+    /* animation: rotate 5s infinite ; Change '5s' to control the speed of the animation */
+  }
+  
+  /* @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+
+
+  .custombackgroundImage{
+    background-image: url('../image/blackfriday.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* Adjust the background size as needed */
+    background-position: center; /* Adjust the background position as needed */
+  }
+
+  .slick-dots{
+     bottom: 0px !important;
+  }
